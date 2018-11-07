@@ -1,0 +1,13 @@
+server:
+ port: 8761
+spring:
+  application:
+    name: Discovery-Server
+eureka:
+  instance:
+   appname: ${spring.application.name}
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://instanceone:8761/eureka/,http://instancetwo:8762/eureka/

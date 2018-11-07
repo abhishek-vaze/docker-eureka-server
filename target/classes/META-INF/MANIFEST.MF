@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: lucifer
+Build-Jdk: 10.0.2
+Implementation-Title: Erureka Registration Server
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.invicto.lbap
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/eureka-registration-server
+Created-By: Maven Integration for Eclipse
+
